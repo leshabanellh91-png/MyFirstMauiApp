@@ -21,5 +21,12 @@ namespace MyFirstMauiApp
 
             ResultLabel.Text = "Button clicked 🎉";
         }
+        private void OnResetClicked(object sender, EventArgs e)
+        {
+            count = 0; // Reset counter
+            CounterBtn.Text = "Click Me"; // Reset button text
+            ResultLabel.Text = "Counter reset 🔄"; // Show message
+        }
+
     }
 }
