@@ -60,6 +60,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Images\crying.jpg" />
+	  <None Remove="Images\happy.jpg" />
+	  <None Remove="Images\sad.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Images\crying.jpg">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Images\happy.jpg">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </MauiImage>
+	  <MauiImage Include="Images\sad.jpg">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </MauiImage>
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.9" />
 	</ItemGroup>

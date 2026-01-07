@@ -12,6 +12,14 @@
             TextColor="#2C3E50"
             HorizontalOptions="Center" />
 
+        <!-- IMAGE ADDED HERE -->
+        <Image
+        x:Name="MyImage"
+        Source="happy.jpg"
+        HeightRequest="150"
+        HorizontalOptions="Center"
+        VerticalOptions="Center" />
+
         <Button
             x:Name="CounterBtn"
             Text="Click Me"
